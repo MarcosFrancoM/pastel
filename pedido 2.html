@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Levantar pedido</title>
+</head>
+<body>
+    <h1>Aquí se hace tu pedido</h1>
+
+    <form action="pedido.js">
+        <label for="Nombre">Danos tu nombre, Porfavor!!!</label><br>
+        <input type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+
+        <br><br>
+
+        <label for="numero">Tu numero es el siguiente</label><br>
+        <input type="text" id="numero" name="numero" placeholder="21">
+        
+        <p>¿Para llevar o a domicilio?</p>
+        <input type="radio" id="aqui" name="aquiollevar" value="Aqui">
+        <label for="aqui">Aqui</label><br>
+        <input type="radio" id="llevar" name="llevar" value="Llevar">
+        <label for="Llevar">Llevar</label><br>
+
+        <p>¿dulce o salado?</p>
+        <input type="checkbox" id="Seda roja" name="Seda roja" value="Seda roja">
+        <label for="seda roja">Pastel seda roja</label>
+        <input type="number" id="sedarojaCuantos" name="sedarojaCuantos" value="¿Cuantos?"><br>
+        <input type="checkbox" id="panecillo rellenos" name="panecillos rellenos" value="panecillos(rellenos)">
+        <label for="panecillos rellenos">Paneillos rellenos</label>
+        <input type="number" id="panecilosCuantos" name="panecillosCuantos" value="¿Cuantos?"><br>
+        
+        <p>¿Y para tomar que te gustaria?</p>
+        <select name="caliente" id="caliente">
+            <option value="Chocolate caliente">Chocolate caliente</option>
+            <option value="te de jazmin">Te de Jazmin</option>
+            <option value="Cafe americano">Cafe americano</option>
+            <option value="mokachino">mokachino</option>
+            <option value="cafe de olla">Cafe de olla</option>
+            <option value="Cafe con vainilla">Cafe con vainilla</option>
+            <option value="avena con canela">Avena con canela</option>
+        </select>
+        <br><br>
+        <input type="reset">
+        <input type="submit">
+        <br><br>
+
+    </form>
+
+</body>
+</html>
